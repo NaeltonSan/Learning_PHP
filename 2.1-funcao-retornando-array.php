@@ -11,7 +11,7 @@
 
 $valor_a_pagar = restaurant_check2(15.22, 8.25, 15);
 
-if ($valor_a_pagar[0] < 15) {
+if ($valor_a_pagar[0] < 20) {
     echo "O total sem gorjeta é menor que 20 reais";
 }
 if ($valor_a_pagar[1] < 20) {
